@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+			integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+			crossorigin="anonymous"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="style.css" />
+		<script defer src="index.js"></script>
+	</head>
+	<body>
+		<div class="page-container">
+			<nav id="navbar">
+				<ul class="navbar-nav">
+					<li class="line">
+						<a href="#about-me">
+							<span>about me</span>
+						</a>
+					</li>
+					<li class="line">
+						<a href="#container-projects">
+							<span>projects</span>
+						</a>
+					</li>
+					<li class="line">
+						<a href="#container-contact">
+							<span>CV</span>
+						</a>
+					</li>
+					<li class="line">
+						<a href="#container-contact">
+							<span>contact</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="container-main">
+				<div class="container about-me" id="about-me">
+					<h1 id="greeting"></h1>
+					<p id="describe"></p>
+				</div>
+				<div class="container projects parallax" id="container-projects">
+					<h1 id="project-h1">projects</h1>
+					<div class="all-projects">
+						<div class="project">
+							<div class="box">to do app</div>
+							<p class="describtion">another to do app vanilla js</p>
+							<p>vanilla js, html, css</p>
+						</div>
+						<div class="project">
+							<div class="box">some image of website</div>
+							<p class="describtion">some project describtion</p>
+						</div>
+						<div class="project">
+							<div class="box">some image of website</div>
+							<p class="describtion">some project describtion</p>
+						</div>
+					</div>
+				</div>
+				<div class="container contact parallax" id="container-contact">
+					<h1>contact info</h1>
+					<div id="contact-details">
+						<ul id="contact-list">
+							<li>
+								<a href="https://github.com/ptaszekk" class="dissolve">
+									<i class="fab fa-github-square"> </i>
+								</a>
+							</li>
+							<li>
+								<a
+									href="https://www.linkedin.com/in/jakub-ptaszek-3aa60922/"
+									class="dissolve"
+								>
+									<i class="fab fa-linkedin"></i>
+								</a>
+							</li>
+							<li>
+								<a href="mailto:ptaszekjakub@gmail.com">
+									<i class="fas fa-envelope-square" id="email"></i>
+								</a>
+							</li>
+							<li>
+								<a href="tel:+420792272050"><i class="fas fa-phone" id="phone"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
